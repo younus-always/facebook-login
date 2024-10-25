@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1100px;
+  margin: auto;
+  padding-inline: 15px;
+}
+:root{
+  --btn-primary: rgb(8, 101, 254);
+  --btn-secondary: rgb(66, 183, 42);
+}
+input , a{
+  display: block;
+}
+
+body{
+  background: rgb(243, 244, 248);
+
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-family: sans-serif;
+}
+
+.form form{
+ box-shadow: 0px 5px 13px #d2c9c9;
+ padding: 15px;
+ border-radius: 6px;
+ background: #ffff;
+}
+.down p a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.logo{
+  width: 300px;
+  height: 92px;
+}
+.logo img{
+  width: 100%;
+}
+.left-content{
+  text-align: left;
+}
+.left-content p {
+  font-size: 1.7rem;
+  padding-left: 28px;
+}
+.down > p a {
+  display: inline-block;
+  transition: all .3s;
+}
+
+form input {
+  width: 100%;
+  padding: 14px 10px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #b3adad87;
+}
+.btn1 {
+  background: var(--btn-primary);
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 14px 10px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: all .3s;
+}
+.btn1:hover{
+  background: rgb(8 101 254 / 91%);
+}
+.btn-box{
+  text-align: center;
+}
+.btn2{
+  background: var(--btn-secondary);
+  font-size: 1rem;
+  color: #fff;
+  padding: 14px 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: all .3s;
+}
+.btn2:hover{
+  background: rgb(63 161 43);
+  
+}
+
+.form form a {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 17px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+  text-decoration: none;
+  transition: all .3s;
+}
+.form form a:hover{
+  text-decoration: underline;
+}
+input:focus{
+  border-color: var(--btn-primary);
+}
+input::placeholder{
+  font-size: 15px;
+  opacity: 0.8;
+}
+.down {
+  margin-top: 25px;
+}
+.down > p a:hover{
+  text-decoration: underline;
+}
